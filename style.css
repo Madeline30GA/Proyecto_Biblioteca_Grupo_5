@@ -1,0 +1,44 @@
+/* Estilos personalizados */
+body {
+    padding-top: 60px; /* Añade espacio para el navbar */
+    justify-content: center;
+}
+
+body {
+    padding-top: 60px; /* Añade espacio para el navbar */
+}
+
+.navbar {
+    text-align: center;
+    background-color: #FF83A0;
+    border-radius: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-list li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar-list li a:hover {
+    background-color: #555;
+}
+
+
