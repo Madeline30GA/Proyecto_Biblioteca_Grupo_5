@@ -1,0 +1,63 @@
+.quote{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.categoriaslibros{
+    padding: 5px;
+    border-radius: 10%;
+    margin-left: 20%;
+}
+#infantiles{
+    background: linear-gradient( #ff83a0, #cd3d5e);
+
+}
+
+#ciencia-ficcion{
+    background: linear-gradient( #9a97ce, #5d57e1);
+}
+
+#dramas{
+    background: linear-gradient( #71b3d4, #0096ff);
+}
+
+#terror{
+    background: linear-gradient( #9e8da5, #b231e0);
+}
+
+#arte{
+    background: linear-gradient( #3f8877, #79ead0);
+}
+
+#comedia{
+    background: linear-gradient( #fada9e, #ffce71);
+}
+
+.titulos{
+    color: #fff;
+    font-size: 500%;
+    text-align: right;
+
+}
+
+p{
+    color: #404040;
+    font-size: 160%;
+}
+
+footer{
+    background-color: #6057bd;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+a{
+    color: #fff;
+    margin-right: 3%;
+    text-decoration: none;
+    font-size: larger;
+}
