@@ -40,12 +40,23 @@ body {
     background-color: #555;
 }
 
-.QuoteS{
+.Presentacion {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.QuoteS {
     text-align: center;
-    font-size: 60px;
-    margin: 2% 20% 2% 2%;
+    font-size: 54px; 
+    margin: 2% 2% 2% 2%;
+    flex: 1; 
+}
+
+#Stephen {
+    width: 36%; 
+    height: auto; 
+    margin-left: 2%; 
 }
 
 img{
