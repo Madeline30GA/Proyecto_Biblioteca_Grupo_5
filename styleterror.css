@@ -3,10 +3,6 @@ body {
     justify-content: center;
 }
 
-body {
-    padding-top: 60px; 
-}
-
 .navbar {
     text-align: center;
     background-color: #FF83A0;
@@ -70,7 +66,7 @@ body {
 }
 
 .card{
-    width: 100%;
+    width: 30%;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
@@ -106,11 +102,20 @@ footer{
 a{
     color: #fff;
     margin-right: 3%;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: larger;
+}
+
+a p{
+    color: #353434;
+    text-decoration: none;
+    font-size: medium;
 }
 .pfooter{
     text-align: right;
     font-size: large;
+    color: #fff;
+}
+footer a{
     color: #fff;
 }
