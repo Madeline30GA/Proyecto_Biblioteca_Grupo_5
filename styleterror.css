@@ -1,0 +1,121 @@
+body {
+    padding-top: 60px; 
+    justify-content: center;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #FF83A0;
+    border-radius: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-list li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar-list li a:hover {
+    background-color: #555;
+}
+
+.Presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuoteS {
+    text-align: center;
+    font-size: 54px; 
+    margin: 2% 2% 2% 2%;
+    flex: 1; 
+}
+
+#Stephen {
+    width: 36%; 
+    height: auto; 
+    margin-left: 2%; 
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.NombreLibro{
+    color: #fff;
+}
+
+.card{
+    width: 30%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 280px;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+footer{
+    background-color: #6057bd;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+a{
+    color: #fff;
+    margin-right: 3%;
+    text-decoration: none !important;
+    font-size: larger;
+}
+
+a p{
+    color: #353434;
+    text-decoration: none;
+    font-size: medium;
+}
+.pfooter{
+    text-align: right;
+    font-size: large;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
